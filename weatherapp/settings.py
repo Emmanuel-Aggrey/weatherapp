@@ -25,7 +25,7 @@ SECRET_KEY = 'z3+kf=^luhi=iu&rn)@*7$slu6hffuu$lmxokxt*5)fy!211q%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['aggrey-weather-app.herokuapp.com','127.0.0.1']
 
 
 # Application definition
