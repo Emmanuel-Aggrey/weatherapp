@@ -8,5 +8,5 @@ class CityForm(ModelForm):
         model = city
         fields = ['name']
         widgets = {
-            'name':TextInput(attrs={'class' : 'input','placholder' : 'City Name'})
+            'name':TextInput(attrs={'class' : 'input','placholder' : 'Enter City Name'})
         }
